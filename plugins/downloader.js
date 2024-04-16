@@ -274,7 +274,7 @@ smd(
       }
       const _0x31321c = _0x538b40.dllink;
       let _0x24f726 = await fancytext(
-        "『 *ᗩᑭᏦ  ᗞᝪᗯᑎしᝪᗩᗞᗴᖇ* 』\n\n*APP Name :* " +
+        "『 *𝗥𝗢𝗠𝗘𝗞-𝗫𝗗 𝗔𝗣𝗞 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥* 』\n\n*APP Name :* " +
           _0x538b40.name +
           "\n*App Id :* " +
           _0x538b40.package +
@@ -354,7 +354,7 @@ cmd(
       if (_0x4ac8f2.length) {
         let _0x3d85b = await download(_0x4ac8f2[0].id);
         let _0x307e6f =
-          "*ᴀsᴛᴀ-ᴍᴅ • ᴀᴘᴋ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪsᴛ* \n*________________________________* \n\n*_Reply Any Number To Download._*\n_Results For : " +
+          "*ʀᴏᴍᴇᴋ-xᴅ • ᴀᴘᴋ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪsᴛ* \n*________________________________* \n\n*_Reply Any Number To Download._*\n_Results For : " +
           _0x1cb962 +
           "_ \n";
         for (let _0x5a5920 = 0; _0x5a5920 < _0x4ac8f2.length; _0x5a5920++) {
@@ -498,7 +498,7 @@ smd(
             },
             mimetype: "audio/mpeg",
             ptt: true,
-            fileName: "Asta-Md-tts.m4a",
+            fileName: "Romek-Md-tts.m4a",
           },
           {
             quoted: _0x55aba2,
@@ -1005,7 +1005,7 @@ smd(
       let _0x3b2ca6 = await yts(_0x4ec99f);
       let _0x4123ae = _0x3b2ca6.all[0];
       let _0x5883a9 =
-        "\t *ᴀsᴛᴀ-ᴍᴅ • sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ*   \n\n*Title :* " +
+        "\t *ʀᴏᴍᴇᴋ-xᴅ • sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ*   \n\n*Title :* " +
         _0x4123ae.title +
         "\nUrl : " +
         _0x4123ae.url +
@@ -1056,7 +1056,7 @@ cmd(
       }
       let _0x2878ec = await yts(_0xca939c);
       let _0x4186e4 =
-        "*ᴀsᴛᴀ-ᴍᴅ • ʏᴏᴜᴛᴜʙᴇ ᴅᴏᴡɴʟᴏᴀᴅ* \n*_______________________________* \n\n_Reply Any Number To Download._\n  _For Audio: 1 mp3._\n  _For Video: 1 video._\n  _For document: 1 document._\n\n_Results For : " +
+        "*ʀᴏᴍᴇᴋ-xᴅ • ʏᴏᴜᴛᴜʙᴇ ᴅᴏᴡɴʟᴏᴀᴅ* \n*_______________________________* \n\n_Reply Any Number To Download._\n  _For Audio: 1 mp3._\n  _For Video: 1 video._\n  _For document: 1 document._\n\n_Results For : " +
         _0xca939c +
         "_ \n\n";
       let _0x463366 = 1;
@@ -1322,7 +1322,7 @@ smd(
           url: _0x59bbaa,
         },
         mimetype: "audio/mpeg",
-        fileName: "Asta-Md--" + _0x1d542b[1] + ".mp3",
+        fileName: "Romek-Xd--" + _0x1d542b[1] + ".mp3",
         caption: Config.caption,
         contextInfo: _0x10e2fa,
       };
@@ -1348,7 +1348,7 @@ cmd(
   async (_0xb75e78, _0x221e78, { isCreator: _0xfbeec5 }) => {
     if (_0xb75e78.quoted && _0xb75e78.text) {
       const _0x5b8ee5 = _0xb75e78.quoted.text.split("\n");
-      if (_0x5b8ee5[0].includes("ᴀsᴛᴀ-ᴍᴅ • sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ")) {
+      if (_0x5b8ee5[0].includes("ʀᴏᴍᴇᴋ-xᴅ • sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ")) {
         const _0x1724ba = _0x5b8ee5.find((_0x525632) =>
           _0x525632.startsWith("Url :")
         );
@@ -1421,7 +1421,7 @@ cmd(
             "Error While Downloading Video : " + _0x189dd8
           );
         }
-      } else if (_0x5b8ee5[0].includes("ᴀsᴛᴀ-ᴍᴅ • ʏᴏᴜᴛᴜʙᴇ ᴅᴏᴡɴʟᴏᴀᴅ")) {
+      } else if (_0x5b8ee5[0].includes("ʀᴏᴍᴇᴋ-xᴅ • ʏᴏᴜᴛᴜʙᴇ ᴅᴏᴡɴʟᴏᴀᴅ")) {
         let _0x307bb6 = "*" + _0xb75e78.text.split(" ")[0] + " : ";
         const _0x56275d = _0x5b8ee5.find((_0x3b5e74) =>
           _0x3b5e74.startsWith(_0x307bb6)
@@ -1485,7 +1485,7 @@ cmd(
             );
           }
         }
-      } else if (_0x5b8ee5[0].includes("ᴀsᴛᴀ-ᴍᴅ • ᴀᴘᴋ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪsᴛ")) {
+      } else if (_0x5b8ee5[0].includes("ʀᴏᴍᴇᴋ-xᴅ • ᴀᴘᴋ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪsᴛ")) {
         let _0x35d668 = "*" + _0xb75e78.text.split(" ")[0] + " : ";
         const _0x205a5f = _0x5b8ee5.find((_0x304058) =>
           _0x304058.startsWith(_0x35d668)
